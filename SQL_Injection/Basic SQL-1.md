@@ -41,7 +41,7 @@ MariaDB [CTF]> select * from SQL_Challenge1 where username=''or''='' and passwor
 1 row in set (0.000 sec)
 
 ```
-<p>Karena pada injection diatas akan menghasilkan username nilai 1(True) dan password 1(True), seperti contoh dibawah</p>
+<p>Karena pada injection diatas akan menghasilkan username nilai 1(True) dan password 1(True) dan hasilnya (1 AND 1 = 1), seperti contoh dibawah</p>
 
 ```mysql
 
