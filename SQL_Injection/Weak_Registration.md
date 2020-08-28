@@ -20,7 +20,7 @@ Form Registration (Username & Password)
 <pre align='center'>
 <b>Success, i trust your is admin, Flag is VenomCTF{adm1n_is_pow3fulll}</b>
 </pre>
-<p>Kelemahan login form terdapat pada fungsi php yang selalu melakukan pemeriksaan username dengan fungsi strpos(), fungsi strpos selalu bernilai True jika sebuah substring terdapat didalam sebuah string, contohnya seperti dibawah ini</p>
+<p>Kelemahan login form terdapat pada fungsi php yang selalu melakukan pemeriksaan username dengan fungsi strpos(), fungsi strpos() selalu bernilai True jika sebuah substring terdapat didalam sebuah string, contohnya seperti dibawah ini</p>
 
 ```php
 <?php
