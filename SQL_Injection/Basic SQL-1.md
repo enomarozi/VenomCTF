@@ -36,7 +36,7 @@ MariaDB [CTF]> select * from SQL_Challenge1 where username=''or''='' and passwor
 +----------+-----------+
 | username | password  |
 +----------+-----------+
-| admin    | admin1337 |
+| admin    | ********* |
 +----------+-----------+
 1 row in set (0.000 sec)
 
