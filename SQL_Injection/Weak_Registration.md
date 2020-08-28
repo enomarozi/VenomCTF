@@ -20,6 +20,21 @@ Form Registration (Username & Password)
 <pre align='center'>
 <b>Success, i trust your is admin, Flag is VenomCTF{adm1n_is_pow3fulll}</b>
 </pre>
+<p>Kelemahan login form terdapat pada fungsi php yang selalu melakukan pemeriksaan username dengan fungsi strpos(), fungsi strpos selalu bernilai True jika sebuah substring terdapat didalam sebuah string, contohnya seperti dibawah ini</p>
+
+```php
+<?php
+$real_username = "admin";
+$fake_username = " admin";
+$result = strpos($fake_username, $real_username);
+echo $result;
+?>
+```
+<p>Hasil program</p>
+<pre>
+1
+</pre>
+<p>Hasil bernilai 1 karena string <b>admin</b> terdapat pada <b><<space>space>admin</b> pada byte 1 </p>
 </b><h3>Flag</h3></b>
 <pre>
 VenomCTF{adm1n_is_pow3fulll}
