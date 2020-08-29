@@ -34,7 +34,7 @@ MariaDB [CTF]> select * from SQL_Challenge6 where username = 'admin';
 +----------+-----------------------------+
 | username | password                    |
 +----------+-----------------------------+
-| admin    | VenomCTF{4lm0st_a11_Filt3r} |
+| admin    | *************************** |
 +----------+-----------------------------+
 1 row in set (0.000 sec)
 ```
