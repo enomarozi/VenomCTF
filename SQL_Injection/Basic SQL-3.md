@@ -10,7 +10,7 @@ ZXJpY2s= --> erick
 cm9iZXJ0 --> robert
 YWxiZXJ0 --> albert
 </pre>
-<p align='justify'>Jika kita coba melakukan injection hasilnya null(tidak terjadi apa2), Sepertinya terdapat proses decode sebelum data input diterima oleh database MySQL, contohnya jika kita input <b>YWRtaW4n</b>
+<p align='justify'>Jika kita coba melakukan injection hasilnya null(tidak terjadi apa2), Sepertinya terdapat proses base64 decoding sebelum data input diterima oleh database MySQL, contohnya jika kita input <b>YWRtaW4n</b>
 akan error karena yang kita input mengandung perintah injection yaitu <b></b></p>
 <pre>
 admin' |-->| YWRtaW4n
