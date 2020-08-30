@@ -116,7 +116,7 @@ Your ID : 13371337
 Username : Venom
 Group : VenomCTF{Un10n_m4k3_me_cry}
 </pre>
-<p>Ternyata dugaan kita benar bahwa field 4,4 benar berisi flag</p>
+<p>Ternyata dugaan kita benar bahwa field 4,4 berisi flag</p>
 </b><h3>Flag</h3></b>
 <pre>
 VenomCTF{Un10n_m4k3_me_cry}
