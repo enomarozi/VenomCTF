@@ -1,4 +1,4 @@
-<h1><b></h1></b>
+<h1><b>Hide me</h1></b>
 <pre>
 Hide me
 </pre>
